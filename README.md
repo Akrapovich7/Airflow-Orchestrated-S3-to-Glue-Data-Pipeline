@@ -13,7 +13,7 @@ Apache Airflow (Celery Executor) manages orchestration, distributed task executi
 The solution follows industry best practices for cloud-native ETL pipelines and is designed to scale horizontally as workload increases.
 
 🔑 Key Concepts
-Apache Airflow (Celery Executor)
+🛠 Apache Airflow (Celery Executor)
 
 Acts as the orchestration layer
 
@@ -27,7 +27,7 @@ Handles retries, failures, and operational logging
 
 Runs locally using Docker Compose for development and testing
 
-Amazon S3
+☁ Amazon S3
 
 Serves as the persistent storage layer
 
@@ -35,7 +35,7 @@ Stores both raw input data and processed outputs
 
 Acts as the primary integration point between pipeline components
 
-AWS Glue
+🔄 AWS Glue
 
 Executes distributed ETL jobs using Apache Spark
 
@@ -82,7 +82,7 @@ Airflow Scheduler
 
 Celery Workers
 
-Message Broker (e.g., Redis or RabbitMQ)
+Message Broker (Redis or RabbitMQ)
 
 Metadata Database
 
