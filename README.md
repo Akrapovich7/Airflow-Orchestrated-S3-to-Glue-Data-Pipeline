@@ -1,11 +1,8 @@
-Evo profesionalno dopunjene verzije sa jasno naznačenim Celery Executor-om (dodano gdje je arhitektonski relevantno):
-
-Airflow-Orchestrated S3 to Glue Data Pipeline
 🧭 Overview
 
 This project implements a production-ready data ingestion and transformation pipeline using Apache Airflow (Celery Executor) to orchestrate workflows across Amazon S3 and AWS Glue.
 
-The pipeline is designed around a clear separation of concerns:
+The pipeline is built around a clear separation of concerns:
 
 Amazon S3 serves as the central data lake storage layer
 
@@ -44,7 +41,7 @@ Executes distributed ETL jobs using Apache Spark
 
 Performs data transformation and enrichment
 
-Writes curated datasets back to S3
+Writes curated datasets back to Amazon S3
 
 Operates independently from Airflow’s runtime environment
 
@@ -97,7 +94,7 @@ Horizontal scaling of workers
 
 Improved reliability under increased workloads
 
-Separation of orchestration and execution layers
+Clear separation of orchestration and execution layers
 
 🔐 Security & IAM Model
 
